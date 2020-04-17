@@ -1,0 +1,25 @@
+{
+  "name": "scg-api",
+  "version": "1.0.0",
+  "description": "APIs using nodejs and express",
+  "main": "index.js",
+  "repository": "https://github.com/suptan/scg-api",
+  "author": "suptan",
+  "private": false,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  }
+}
